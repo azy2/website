@@ -1,0 +1,91 @@
+\documentclass[10pt, letterpaper]{article}
+
+\usepackage[margin=0.55in,top=0.25in,bottom=0.1in]{geometry}
+\usepackage{hyperref}
+\pagenumbering{gobble}
+\usepackage{parskip}
+\usepackage{tabularx}
+
+\begin{document}
+\par
+
+{\centering
+\textbf{\LARGE{Benjamin M. Lambeth}}
+\smallskip
+\hrule \par}
+
+310 E Springfield Ave, Apt. 107, Champaign IL, 61820 \hfill blambet2@illinois.edu \\ \href{http://www.lambethben.com/}{http://www.lambethben.com/} \hfill 217-979-7551
+
+\smallskip
+{\centering \subsection*{EDUCATION} \par}
+
+BS, Computer Science \hfill 2015 - 2019 (In Progress) \\
+University of Illinois at Urbana Champaign \hfill GPA: 3.82
+
+\smallskip
+{\centering \subsection*{INTERNSHIPS} \par}
+
+\textbf{Qualcomm Research and Developement} \hfill May 2017 - Aug 2017 \\
+Developed a Regression Test Selection tool that is being used internally
+at Qualcomm. The tool speeds up testing by only running the tests that execute
+new code and ignoring all other tests. For one project, I brought test execution times down from
+approximately 4 hours to minutes or seconds depending on the change. Awarded the
+Roberto Padovani Scholarship for this work, which is awarded for the most
+substantial work done by an intern that summer. My manager was
+Vince Baglin and my mentor was Shashank Khanvilkar.
+
+\textbf{Facebook} \hfill June 2018 - Aug 2018 \\
+Worked on HHVM and the Hack language. Created a new datatype, Shapes, in HHVM.
+Shapes are designed to operate very similarly to arrays and dicts with the
+intention to migrate their functionality into something more typesafe later.
+This work spanned 3 months and required substantial understanding of the entire
+HHVM JIT Compiler stack. The code I wrote can be found at
+\href{https://github.com/facebook/hhvm/commits?author=azy2}{https://github.com/facebook/hhvm/commits?author=azy2}
+
+\smallskip
+{\centering \subsection*{RESEARCH} \par}
+
+\textbf{Research Assistant for Darko Marinov and Alex Gyori} \hfill Apr 2016 -
+Dec 2016 \\
+I did research in the field of Software Testing. I primarily worked on the tool
+NonDex  (\href{https://github.com/TestingResearchIllinois/NonDex}{link}), which
+is a tool for detecting and debugging wrong assumptions on
+under-determined Java APIs. Such assumptions can hurt portability for an
+application when they are moved to other environments with a different Java
+runtime. NonDex explores different behaviors of under-determined APIs and
+reports test failures under different explored behaviors. I also contributed to numerous open-source projects by fixing tests that NonDex flagged.
+
+\smallskip
+{\centering \subsection*{PROJECTS} \par}
+
+\textbf{\href{https://github.com/azy2/plan8/tree/master/student-distrib}{Plan8
+    (link)}} \par
+Plan8 is a small operating system I developed with 2 other students for a class at
+The University of Illinois at Urbana-Champaign. The OS supports interupts, an in
+memory file system, virtual memory, paging, user space programs, a basic set of
+system calls (such as file I/O), task scheduling, a shell, and user signals. I
+won 2nd place in the class competition against 50+ other teams.
+
+\textbf{\href{https://github.com/azy2/Overseer/}{OverSeer (link)}} \par
+Overseer is a dorm management system I developed with 7 other students over the
+course of a semester. Overseer is a full stack web application written in
+Python, MySQL, and Bootstrap 4. It allows dorms and residence halls to manage
+students, meal plans, packages, and staff in a clean and efficient online system.
+
+\smallskip
+{\centering \subsection*{PUBLICATIONS} \par}
+
+A. Gyori, \textbf{B. Lambeth}, A. Shi, O. Legunsen, and D. Marinov. NonDex: A tool for detecting and debugging wrong assumptions on Java API specifications. In \textit{Proceedings of the 24th ACM SIGSOFT International Symposium on the Foundations of Software Engineering (FSE 2016).} Acceptance Rate: 13/32 - 41\%, \href{https://doi.org/10.1145/2950290.2983932}{link}.
+\par
+A. Gyori, \textbf{B. Lambeth}, S. Khurshid, and D. Marinov. Exploring Underdetermined Specifications using Java PathFinder. In \textit{Java Pathfinder Workshop 2016, Software Engineering Notes (SEN)}, \href{http://mir.cs.illinois.edu/~gyori/pubs/jpf16.pdf}{link}.
+
+\smallskip
+{\centering \subsection*{AWARDS/GRANTS} \par}
+\begin{tabularx}{\textwidth}{X r}
+NSF Travel Grant for attendance at \textit{The International Symposium on the
+  Foundations of Software Engineering (FSE) 2016} & \$1,000
+\\
+  Qualcomm Roberto Padovani Scholarship for most substantial contribution as an intern & \$5,000
+\end{tabularx}
+\smallskip
+\end{document}
